@@ -44,4 +44,5 @@ public class PlaneMovement : MonoBehaviour
         currentPlane.LocalGForce = inverseRotation * acceleration;
         previousVelocity = currentPlane.Velocity;
     }
+
 }
