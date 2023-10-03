@@ -137,11 +137,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3175988671411989177, guid: 45564455439187946a6e2e6edb73b428, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.61
+      value: 2.74
       objectReference: {fileID: 0}
     - target: {fileID: 3175988671411989177, guid: 45564455439187946a6e2e6edb73b428, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.0023172
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 3175988671411989177, guid: 45564455439187946a6e2e6edb73b428, type: 3}
       propertyPath: m_LocalRotation.w
@@ -171,11 +171,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4604959011325973746, guid: 45564455439187946a6e2e6edb73b428, type: 3}
+      propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9036005512453816728, guid: 45564455439187946a6e2e6edb73b428, type: 3}
       propertyPath: m_Name
       value: Plane
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8669294515919256410, guid: 45564455439187946a6e2e6edb73b428, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
