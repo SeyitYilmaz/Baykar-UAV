@@ -13,4 +13,12 @@ public class Plane : MonoBehaviour
     public float Throttle {  get;  set; }
     public float AngleOfAttack { get;  set; }
     public float AngleOfAttackYaw { get; set; }
+
+    public AnimationCurve forwardDrag;
+    public AnimationCurve backDrag;
+    public AnimationCurve topDrag;
+    public AnimationCurve bottomDrag;
+    public AnimationCurve leftDrag;
+    public AnimationCurve rightDrag;
+
 }

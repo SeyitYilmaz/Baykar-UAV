@@ -45,4 +45,10 @@ public class PlaneMovement : MonoBehaviour
         previousVelocity = currentPlane.Velocity;
     }
 
+    public Vector3 Scale6(Vector3 value , float posX, float negX,float posY, float negY, float posZ, float negZ)
+    {
+        Vector3 result = value;
+        return result;
+    }
+
 }
